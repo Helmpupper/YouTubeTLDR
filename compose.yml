@@ -1,0 +1,7 @@
+---
+  services:
+    YouTubeTLDR:
+      image: helmpup/ytsm:dev
+      container_name: YouTubeTLDR
+      ports:
+        - 8000:8000
